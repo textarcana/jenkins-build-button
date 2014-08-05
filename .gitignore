@@ -1,0 +1,41 @@
+# PressPlus assets
+lib/www/argus
+
+# Project-specific files
+README.html
+*.log
+reports
+generated_files
+gitstats_report
+
+# Emacs
+*~
+#*
+*#
+.#*
+.emacs.d/elpa
+.emacs.d/places
+.emacs.d/auto-save-list/
+.emacs.d/bookmarks
+.emacs.d/backups/
+.emacs.d/history
+.emacs.d/url/
+.emacs.d/undohist/
+.emacs.d/dribble
+.emacs.d/.emacs.desktop*
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.cap
+
+# Python
+*.py[co]
+
+#MacOS tmp files
+.DS_Store
+
+#Sparkler generated files
+graph-*.png
